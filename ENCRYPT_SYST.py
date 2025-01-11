@@ -45,11 +45,6 @@ def encrypt(text, n, e):
     """
     Funció d'encriptació final.
 
-    Paràmetres:
-    text (str): El text a encriptar (el qual convertim a UTF8)
-    n (int): Public key
-    e (int): Public key
-
     Retorna una llista dels blocs ja encriptats
 
     >>> encrypt("Hello!", 3233, 17)
